@@ -25,7 +25,7 @@ use App\Http\Controllers\DataPeminjamanController;
 |
 */
 
-Route::redirect('/', '/login');
+Route::redirect('/', '/welcome');
 
 Route::get('/welcome', function () {
     return view('welcome');
